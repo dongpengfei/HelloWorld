@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_sqlite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/b_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加记录" />
+
+        <Button
+            android:id="@+id/b_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新记录" />
+
+        <Button
+            android:id="@+id/b_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除记录" />
+    </LinearLayout>
+
+</LinearLayout>
